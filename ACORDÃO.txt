@@ -1,0 +1,41 @@
+
+
+Conforme as regras de negócio acordadas entre o FNDE e as mantenedoras do Grupo 2 (com mais de 20.000 inscrições), todos os contratos e/ou aditamentos contratados no período entre 01/08/2015 e 31/12/2015 terão seus repasses parcelados, com as mensalidades corrigidas pelo IPCA, respeitando as seguintes datas:
+  - 25% do montante devido repassado em 30.06.2016;
+  - 25% do montante devido a repassar em 30.06.2017;
+  - 50% do montante devido a repassar em 30.06.2018.
+
+
+SELECT NU_PERCENT_SOLICITADO_FINANC, * FROM AUDITORIA.VW_LG_FIES_TERMO_FINANCIAMENTO WHERE CO_INSCRICAO = 4560335 ORDER BY DT_LOG_ALTERACAO DESC;
+  
+
+SELECT
+   con.nu_cpf,
+   adt.nu_semestre_aditamento||'/'||adt.nu_ano_aditamento as "semestre/ano",
+   adt.dt_inclusao,
+   ade.tp_grupo_repasse
+FROM
+  financeiro.tb_fies_aditamento_contrato adt
+    INNER JOIN financeiro.tb_fies_contrato con ON adt.co_contrato_fies = con.co_contrato_fies
+    INNER JOIN tb_fies_adesao ade ON adt.co_mantenedora = ade.co_mantenedora
+WHERE
+  con.nu_cpf = '06784411625'
+  AND adt.dt_inclusao between '2015-08-01' AND '2015-12-31'
+  AND tp_grupo_repasse = 2
+ORDER by adt.nu_ano_aditamento, adt.nu_semestre_aditamento
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SELECT
+       b.nu_cpf,
+       a.nu_semestre_aditamento||'/'||a.nu_ano_aditamento as semestre_referencia,
+       a.co_mantenedora,
+       c.tp_grupo_repasse,
+       a.dt_inclusao
+  FROM financeiro.tb_fies_aditamento_contrato a
+  INNER JOIN financeiro.tb_fies_contrato b USING (co_contrato_fies)
+  INNER JOIN tb_fies_adesao c ON c.co_mantenedora = a.co_mantenedora
+WHERE b.nu_cpf = '06784411625'
+AND a.nu_ano_aditamento = 2015
+ORDER BY nu_ano_aditamento, nu_semestre_aditamento
+
+Conforme verificado no "estrato-aluno", não existem repasses feitos no 2°/2015. Segundo as regras de negócio, há uma previsão de que seja repassados os valores até o  30.06.2018.

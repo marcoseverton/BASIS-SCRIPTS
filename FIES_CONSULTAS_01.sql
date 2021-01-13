@@ -1,6 +1,6 @@
 ﻿/**
  script consulta sysfies
- @author Marcelo Amaral <mailto: mldo@indracompany.com>
+ @author Marcelo Amaral <mailo: mldo@indracompany.com>
 **/	
 
 --inscrição "aluno modelo: 00000200018 - VERIDIANE CRISTINA ZACARIA" CEF
@@ -365,6 +365,11 @@ select ia.ds_tipo_liminar,ui.no_usuario, ia.*
    --and co_motivo_situacao = '0000'
 order by ui.no_usuario
 
+-- CRITTICAS PARA O ADITAMENTO DE RENOVAÇÃO BB
+SELECT nu_sequencial, co_identificacao_registro, co_critica, ds_complemento_critica, 
+       co_arquivo_recebido, dt_inclusao_registro, co_chave_id_registro, 
+       nu_cpf as co_aditamento
+  FROM integracao.tb_fies_importa_critica_retorno where nu_cpf  like '%9265785%';
       
 --verificar se o banco(CAIXA) nos enviou contratação ou derrubada de suspensão ou encerramento.
 select * from integracao.tb_fies_importa_ocorrencia_contrato_cef where co_cpf in ('00400014076') order by dt_inclusao_registro;

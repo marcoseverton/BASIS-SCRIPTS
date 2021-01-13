@@ -1,0 +1,22 @@
+ENVIO DE LIMINARES
+
+1. LIMINAR 20 (Permite a troca de fiança BB e CEF)
+
+obs: BB - Se a finança anterior tiver a dispensa de fiador.
+
+1.1. PROCEDIMENTOS
+a) alterar o st_troca_tipo_fianca para"S".
+b) alterar o st_direito_troca_fianca para "S".
+
+-------------------------------------------------------------------------------------------------------------------------------------
+2 . LIMINAR 21 (ENVOLVE O FGEDUC)
+BB - Quando não tiver liminar.
+
+2.1. PROCEDIMENTOS
+
+a) Inserir "CPF" na tabela tb_fies_ajusta_liminar_21,
+b) alterar o st_troca_tipo_fianca para"S".
+c) alterar o st_direito_troca_fianca para "S".
+
+
+

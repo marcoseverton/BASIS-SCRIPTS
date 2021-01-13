@@ -1,0 +1,158 @@
+﻿Acessar outra máquina pel o IP:
+iniciar>executar>\\10.1.1.2
+ netstat -a 
+netstat -n
+ipconfig
+
+CONFIGURAÇÃO DA IMPRESSORA \\clus-print-01ps\imp-sede-ss-01
+
+CLTR + LOGO(WINDOWS)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Configurações do Ubuntu
+
+@Configuração de teclado para ABNT2:$setxkbmap-model abnt2 -layout br
+
+@Instalação da Pilha LAMP PHP:
+sudo apt-get update
+sudo apt-get install apache2
+sudo apt-get install mysql-server php5 php5-mysql libapache2-mod-php5 
+sudo apt-get install phpmyadmin
+echo "<?php phpinfo(); ?>" | sudo tee /var/www/test.php
+sudo /etc/init.d/apache2 restart
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+Turnos fies
+10067 - Matutino
+10070 - Noturno
+10071 - Integral
+10068 - vespertino
+-----------------------------------------------------------------------------------------------------------------------------------------
+https://www3.caixa.gov.br/fies/FIES_InstEnsino.asp
+acesso Banco: Caixa
+M000160  senha: Mec136
+
+ACESSO AO COMPUTADOR MEC
+login: marcosconceicao
+senha: m4rc0s@indra
+
+CPF do Agente operador do fies: 723.346.571-15
+Email indra : Usuario:
+mealmeida
+senha: pc_indra2019
+
+Configurações HMG
+
+-----------------
+Oracle base de dados
+Login: marcosconceicao senha: 136!098
+
+-----------------
+ADPWEB: 
+MEACONCEICAO
+SENHA: Mt_?56T7
+
+------------------
+PRE-PROD/HMG fies
+Usuario: marcosconceicao
+Senha: 53UWM212
+
+ -- sistema oracle
+login: marcos.everton10@gmail.com
+senha: M4rc0$@indra
+
+--conexão oracle PROD
+'host' => 'examec01-scan3.mec.gov.br',
+'porta' => '1521'
+'user' => 'marceloamaral',
+'password' => 'xxxxxx',
+'dbname' => 'adgcrit',
+
+--conexão oracle TRE
+'host' => 'examec01-scan4.mec.gov.br',
+'porta' => '1521'
+'user' => 'marceloamaral',
+'password' => 'xxxxxx',
+'dbname' => 'TREORA',
+
+--conexão oracle DSV
+'host' => 'examec01-scan4',
+'porta' => '1521'
+'user' => 'marceloamaral',
+'password' => 'xxxxxx',
+'dbname' => 'dsvora',,
+
+--conexão oracle HMG
+'host' => 'examec01-scan4',
+'porta' => '1521'
+'user' => 'marceloamaral',
+'password' => 'xxxxxx',
+'dbname' => 'hmgora',
+
+--conexão postgre preprod
+'host' => '10.73.0.100',
+'porta' => '5445'
+'Maitenance DB' => 'dbfies'
+'user' => 'marceloamaral',
+'password' => 'xxxxxx',
+
+--conexão postgre espelho produção
+'host' => 'pgpool-la-02',
+'porta' => '6533'
+'Maitenance DB' => 'dbfies'
+'user' => 'marceloamaral',
+'password' => 'xxxxxx',
+
+--conexão postgre HMG
+'host' => 'hmg-sisfies-ldp-01',
+'porta' => '5445'
+'Maitenance DB' => 'dbfies'
+'user' => 'marceloamaral',
+'password' => 'xxxxxx'
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+--Caso Kroton, derrubada manual no aditamento 2/2016
+No entanto há uma derrubada feita manualmente no aditamento na data " 24/10/2016 ", conforme foi verificado, houve uma solicitação por parte do FNDE para derrubada em lote, por se tratar do caso Kroton.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+-- WEB SERVICE --
+<situacao>false</ns2:situacao> Com Restrição
+<situacao>true</ns2:situacao> Sem Restrição
+<ADIMPLENTE>N</ADIMPLENTE> Com Restrição
+<ADIMPLENTE>S</ADIMPLENTE> Sem Restrição
+<restricao>true</restricao> Com Restrição
+<restricao>false</restricao> Sem Restrição
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+https://www3.caixa.gov.br/fies/FIES_InstEnsino.asp
+acesso Banco: Caixa
+M000160  senha: Fies28
+
+CPF do Agente operador do fies: 723.346.571-15
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Favor utilizar as issues listadas abaixo para o registro de horas não produtivas:
+
+
+MEC - 2019 - Janeiro - Banco de Horas:
+https://jira.indra.es/browse/MEBAMG-28741
+
+
+MEC - 2019 - Fevereiro – Afastamentos (licenças e atestados)
+https://jira.indra.es/browse/MEBAMG-28742
+
+MEC - 2019 - Fevereiro - Indisponibilidade de ambiente
+https://jira.indra.es/browse/MEBAMG-28743
+
+MEC - 2019 - Fevereiro - Ociosidade
+https://jira.indra.es/browse/MEBAMG-28744
+
+
+MEC - 2019 - Fevereiro - Férias
+https://jira.indra.es/browse/MEBAMG-28745  
+
+

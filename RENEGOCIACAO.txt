@@ -1,0 +1,32 @@
+-- DEMANDAS DE RENOGOCIAÇAO DO FIES
+
+
+Favor orientar o 4° Nível/FNDE a entrar em contato com o agente financeiro do contrato do (a) estudante afim de que nos sane algumas dúvidas 
+em relação aos dados recebidos no arquivo de carga total do legado do (a) estudante:
+
+1. Valor contratado:
+2. Data da assinatura do contrato:
+3. Valor do Percentual de financiamento contratado:
+4. Valor do saldo devedor calculado :
+5. Prazo fase de utilização:
+6. Início utilização:
+7. Fim utilização:
+8. Prazo da carência:
+9. Início carência:
+10. Prazo de amortização I:
+11. Início de amortização I:
+12. Prazo de amortização II:
+13. Início de amortização II:
+14. Data de fim do contrato:
+15. Valor de capital dos extratos não pagos (R$):
+16. Juro dos extratos não pagos (R$):
+17. Dia de vencimento das prestações:
+18. Valor das prestações em atraso (R$):
+19. Valor das prestações vincendas (R$):
+20. Saldo devedor total (R$):
+21. Data do último saldo devedor total:
+22. Valor da prestação mensal (R$):
+23. Prazo de amortização remanescente:
+24. Prazo de amortização transcorrida:
+25. Valor devido extrato (R$):
+26. Data da última valorização:

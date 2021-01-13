@@ -1,0 +1,315 @@
+-- PRORROGAÇÃO E REENVIO DE ADITAMENTO
+1.	Alterar o aditamento de renovação de 1°2018 para “cancelado” (DTI/MEC);
+2.	Efetuar o estorno financeiro dos repasses realizados no semestre de 2°2017 (DTI/MEC);
+3.	Ajustar a quantidade dos semestres financiamento para 10 semestres no aditamento de renovação de 2°2017 (DTI/MEC);
+4.	Excluir comprovantes, prorrogar os prazos e alterar a situação do aditamento de renovação de 2°2017 para “validado para a contratação” (DTI/MEC);
+5.	Quando o aditamento de 2°2017 estiver na situação “recebido pelo banco”, orientar o estudante a comparecer ao Agente Financeiro de posse de seu DRM atualizado, de modo a formalizar a contratação de aditamento de renovação (FNDE);
+6.	Solicitar ao Agente Operador do Fies a liberação de extemporâneo para os semestres a partir do 1°2018 (FNDE);
+7.	Orientar a CPSA e o estudante a darem continuidade aos aditamentos liberados (FNDE).
+ 
+ -- PADRÃO PARA ADITAMENTOS EXTEMPORÂNEOS --
+1.	Solicitar o Gestor do Fies a liberação de extemporâneo para os semestres a partir de 1°/2018 (4° Nível/FNDE);
+2.	Após a liberação de extemporâneo, orientar a CPSA e o estudante a reiniciar e validar o aditamento de renovação de 1°/2018 (4° Nível/FNDE);
+3.	Quando o aditamento de renovação de 1°/2018 estiver na situação "recebido pelo banco", orientar o estudante a reimprimir o DRM junto a CPSA, bem como comparecer ao Agente Financeiro para formalização da contratação do aditamento (4° Nível/FNDE);
+4.	Após a contratação do aditamento de renovação de 1°/2018, orientar a CPSA e o estudante a darem prosseguimento aos aditamentos de renovações liberados (4° Nível/FNDE);
+
+ -- PADRÃO PARA ADITAMENTOS EXTEMPORÂNEOS E SEMESTRES A MAIOR--
+1.	Solicitar o Agente Operador a liberação de 12 semestres para o financiamento do estudante, através da funcionalidade “Liberar semestres a maior” (4° Nível/FNDE); 
+2.	Solicitar o Agente Operador a liberação de extemporâneo para os semestres a partir de 2°/2016 (4° Nível/FNDE);
+3.	Após a liberação de extemporâneo, orientar a CPSA e o estudante a reiniciar e validar o aditamento de renovação de 1°/2018 (4° Nível/FNDE);
+4.	Quando o aditamento de renovação de 1°/2018 estiver na situação "recebido pelo banco", orientar o estudante a reimprimir o DRM junto a CPSA, bem como comparecer ao Agente Financeiro para formalização da contratação do aditamento (4° Nível/FNDE);
+5.	Após a contratação do aditamento de renovação de 1°/2018, orientar a CPSA e o estudante a darem prosseguimento aos aditamentos de renovações liberados (4° Nível/FNDE);
+
+
+ -- PADRÃO PARA LIBERAÇÃO DE INSCRICAO VENCIDA --
+ -- PADRÃO PARA ADITAMENTOS EXTEMPORÂNEOS --
+ A)Solicitar ao gestor do fies a liberação da liminar "Liminar de inscrição retroativa para o semestre de ; [4° Nível/FNDE]
+ B)Alterar a situação da inscrição, bem como prorrogar os prazos; [DTI/MEC] -- EFETUAR O LOGIN POSITIVO NO SIFIESALUNO PARA QUE A SITUAÇÃO DA INSCRIÇÃO SEJA ALTERADA PARA EM PREENCHIMENTO.
+ C)Solicitar o (a) estudante para dar prosseguimento a inscrição de 2°/2017. A CPSA deverá validar esta inscrição; [4° Nível/FNDE]
+ D)Quando a inscrição de 2°/2017 estiver na situação "recebido pelo banco", informar o (a) estudante que deverá imprimir a sua DRI junto a CPSA, posteriormente comparecer ao agente financeiro para formalização; [4° Nível/FNDE]
+ E)Verificar o sistema diariamente para atestar que o (a) estudante concluiu a contratação. Caso negativo alertá-lo (a) sobre o vencimento dos prazos. [4° Nível/FNDE] 
+ 
+ -- PRORROGAR INSCRIÇAO PARA REENVIO AO BANCO
+1.	Excluir comprovantes, retornar os dados da inscrição de 2/2012 para reenvio ao banco com os prazos prorrogados (DTI/MEC);
+2.	Quando a inscrição estiver na situação “Recebido pelo banco”, solicitar a estudante que reimprima o DRI, bem como se dirija ao Agente Financeiro para formalizar a contratação da inscrição (FNDE);
+3.	Após a contratação da inscrição de 2/2012, solicitar ao Agente Operador do Fies a liberação de extemporâneo para os semestres a partir de 1/2013 (FNDE);
+4.	Orientar a CPSA e a estudante a darem continuidade aos aditamentos liberados (FNDE).
+
+- b)	Após a validação, o próximo passo do (a) estudante é dirigir-se à CPSA da instituição de ensino para retirar uma via do Documento de Regularidade
+ de Matrícula (DRM), devidamente assinada pelo Presidente, Vice-Presidente ou membro da equipe de apoio da Comissão para formalização da contratação
+ do aditamento, quando o aditamento de 1/2019 estiver na situação “recebido pelo banco” (FNDE).
+
+
+ 
+ -- PADRÃO INSCRIÇÕES COM CONTROLE DE VAGAS
+A)	Alterar a situação da pré-inscrição de 2°/2016 no SISFIES e FIESSELEÇAO (DTI/MEC);
+B)	Recuperar vaga de 2°/2016 no controle de vagas da pré-inscrição, bem como prorrogar os prazos (DTI/MEC);
+C)	Alterar a situação da inscrição de 2°/2016 para "Em preenchimento" e prorrogar os prazos das liminares manualmente (DTI/MEC);
+D)	Orientar o (a) estudante a dar prosseguimento ao preenchimento da inscrição de 2°/2016 no sistema sisfiesaluno. Posteriormente a CPSA deverá validar a inscrição (FNDE);
+E)	Quando a inscrição de 2°/2016 estiver na situação "recebido pelo banco", orientar o (a) estudante a imprimir o DRI junto a CPSA, e posteriormente, comparecer ao Agente Financeiro para formalização da contratação do fies (FNDE).
+
+ -- ESTORNO DE ADITAMENTOS PARA REENVIO AO BANCO
+ 
+1)	Solicitar ao Agente Financeiro do contrato do estudante que estorne/desconsidere os aditamentos de 1°/2019 (renovação e dilatação) e 2/2018 (suspensão). Bem como ajustar o sistema para o recebimento de novos arquivos de contratação (FNDE);
+2)	Retornar a esta DTI/MEC, após a conclusão do item anterior (FNDE);
+3)	Efetuar o estorno dos repasses enviados ao semestre de 1°/2019 (DTI/MEC);
+4)	Excluir aditamento de dilatação de 1/2019 e suspensão de 2/2018 (DTI/MEC);
+5)	Excluir os comprovantes, alterar o aditamento de renovação de 1/2019 para “cancelado” (DTI/MEC);
+6)	Prorrogar os prazos e alterar a situação do aditamento de 2°/2018 para “validado para contratação” (DTI/MEC);
+7)	Quando o aditamento de renovação de 2°/2018 estiver na situação "recebido pelo banco", orientar a estudante a reimprimir o DRM, e posteriormente, comparecer ao Agente Financeiro para formalização (FNDE);
+8)	Solicitar ao Agente Operador do fies a liberação de extemporâneo para os semestres a partir de 1°/2019 (FNDE); 
+9)	Orientar a CPSA e a estudante a darem prosseguimento aos aditamentos de renovações liberados (FNDE).
+
+-- PROCEDIMENTOS PARA AUMENTO DE SEMESTRES BANCO DO BRASIL
+1)	Solicitar ao Agente Financeiro do contrato da estudante que estorne/desconsidere os aditamentos de 2°/2018 (renovação e dilatação), 1°/2018 (renovação e dilatação) e aditamento de renovação de 2°/2017. Bem como ajustar o sistema para o recebimento de novos arquivos de contratação (FNDE);
+2)	Retornar a esta DTI/MEC, após a conclusão do item anterior (FNDE);
+3)	Efetuar o estorno dos repasses enviados ao semestre de 2°/2018, 1°/2018 e 2°/2017 (DTI/MEC);
+4)	Excluir aditamentos de dilatação de 2°/2018 e 1°/2018 (DTI/MEC);
+5)	Excluir comprovantes e alterar os aditamentos de renovação de 2/2018 e 1/2018 para “cancelado” (DTI/MEC);
+6)	Alterar a quantidade de semestres de financiamento no termo de financiamento e aditamento de renovação de 2/2017 para 11 semestres (DTI/MEC);
+7)	Inserir o registro de semestres a maior (11 semestres) (DTI/MEC);
+8)	Excluir comprovantes, alterar o tipo do aditamento para “não simplificado”, prorrogar os prazos e alterar a situação do aditamento de 2°/2017 para “validado para contratação” (DTI/MEC);
+9)	Quando o aditamento de renovação de 2°/2017 estiver na situação "recebido pelo banco", orientar a estudante a reimprimir o DRM, e posteriormente, comparecer ao Agente Financeiro para formalização (FNDE);
+10)	Solicitar ao Agente Operador do fies a liberação de extemporâneo para os semestres a partir de 1°/2018 (FNDE); 
+11)	Orientar a CPSA e a estudante a darem prosseguimento aos aditamentos de renovações liberados (FNDE).
+
+-- NOVOS PROCEDIMENTOS ADITAMENTOS DE SUSPENSAO
+1)	Alterar a quantidade de semestres de financiamento no termo de financiamento e aditamento de renovação de 1/2017 para 15 semestres (DTI/MEC);
+2)	Inserir o registro de semestres a maior (15 semestres) (DTI/MEC);
+3)	Excluir comprovantes, alterar o tipo do aditamento para “não simplificado”, prorrogar os prazos e alterar a situação do aditamento de 1°/2017 para “validado para contratação” (DTI/MEC);
+4)	Quando o aditamento de renovação de 1°/2017 estiver na situação "recebido pelo banco", orientar a estudante a reimprimir o DRM, e posteriormente, comparecer ao Agente Financeiro para formalização (FNDE);
+5)	Após a contratação do aditamento de renovação de 1/2017, solicitar ao Agente Operador do fies a liberação de extemporâneo para os semestres de 2/2017, 1/2018 e 2/2018 (FNDE); 
+6)	Orientar o estudante e CPSA a darem prosseguimento aos aditamentos de suspensão de 2/2017, 1/2018 e 2/2018 (FNDE);
+7)	Após a contratação da suspensão de 2/2018, solicitar ao Agente Financeiro que ajuste o seu sistema para acatar a contratação de mais 4 suspensões (1/2019, 2/2019, 1/2020 e 2/2020) (FNDE);
+8)	Retornar a DTI/MEC para inserir e enviar as suspensões (1/2019, 2/2019, 1/2020 e 2/2020), uma por vez (FNDE);
+9)	Inserir manualmente os aditamentos de suspensão para envio ao banco (1/2019, 2/2019, 1/2020 e 2/2020), uma suspensão por vez (DTI/MEC);
+10)	Monitorar o SISFIES para atestar a contratação dos aditamentos de suspensão (FNDE);
+11)	Após a contratação da suspensão de 2/2020, orientar a CPSA e o estudante a darem prosseguimento aos aditamentos subsequentes (FNDE).
+
+
+ -- PADRÃO PARA EXCLUSÃO DOS ADITAMENTOS -- 
+ 
+a.	Solicitar ao Agente Financeiro do contrato do estudante que estorne/desconsidere o aditamento de renovação de 1°/2019. Bem como ajustar o sistema para o recebimento de novo arquivo de contratação (4° Nível/FNDE);
+b.	Retornar a esta DTI/MEC, após a conclusão do item anterior (4° Nível/FNDE);
+c.	Efetuar o estorno dos repasses enviados ao semestre de 1°/2019 (DTI/MEC);
+d.	Excluir os comprovantes, alterar a quantidade de semestres financiados para 10 e ajustar os semestres concluídos para 8 no termo de financiamento e no aditamento de renovação de 1°/2019 (DTI/MEC);
+e.	Ajustar a quantidade de semestres de financiamento e semestres concluídos no aditamento anterior (DTI/MEC);
+f.	Prorrogar os prazos, alterar o tipo de aditamento para "não simplificado" e alterar a situação do aditamento de 1°/2019 para “validado para contratação” (DTI/MEC);
+g.	Quando o aditamento de renovação de 1°/2019 estiver na situação "recebido pelo banco", orientar o estudante a reimprimir o DRM, e posteriormente comparecer ao Agente Financeiro para formalização (4° Nível/FNDE);
+h.	Quando o aditamento estiver na situação "contratado", retornar a esta DTI/MEC, para realizarmos o ajuste financeiro dos repasses do semestre 1°/2019 (4° Nível/FNDE);
+i.	Efetuar o ajuste a crédito para o semestre de 1°/2019 (DTI/MEC);
+j.	Solicitar ao Agente Operador do fies a liberação de extemporâneo para o semestre de 2°/2019, caso necessário (4° Nível/FNDE); 
+k.	Orientar a CPSA e o estudante a darem prosseguimento aos aditamentos de renovações liberados (4° Nível/FNDE).
+
+-- ALTERAÇAO DE GARANTIA DE FIANÇA
+1.	Excluir fiador do financiamento do (a) estudante, alterar a garantia de fiança do FIES do (a) estudante para “FGEDUC” (DTI/MEC)
+2.	Efetuar a marcação de liminar de troca de fiança no aditamento de renovação de 1/2018 (DTI/MEC);
+3.	Prorrogar os prazos e alterar a situação do aditamento de 1°/2018 para “validado para contratação” (DTI/MEC);
+4.	Quando o aditamento de renovação de 1°/2018 estiver na situação "recebido pelo banco", orientar o (a) estudante a imprimir o DRM junto a CPSA, e posteriormente, comparecer ao Agente Financeiro para formalização (FNDE);
+5.	Quando o aditamento de 1/2018 estiver na situação "contratado", solicitar ao Agente Operador do fies a liberação de extemporâneo para os semestres a partir de 2°/2018 (FNDE); 
+6.	Orientar a CPSA e o (a) estudante a darem prosseguimento aos aditamentos de renovações liberados (FNDE).
+ 
+-- CONVENCIONAL
+1.	Alterar a garantia de fiança do FIES do (a) estudante para “Convencional” e alterar a situação do aditamento de renovação de 2/2019 para “Reaberto para correção” (DTI/MEC);
+2.	Orientar o estudante a cadastrar seu fiador no aditamento de 2/2019 (FNDE);
+3.	Retornar a DTI/MEC para marcação de liminar de troca de fiança no aditamento (FNDE);
+4.	Efetuar a marcação de liminar de troca de fiança no aditamento de renovação de 2/2019 (DTI/MEC);
+5.	Exclui comprovantes, prorrogar os prazos e alterar a situação do aditamento de 2/2019 para “validado para contratação” (DTI/MEC);
+6.	Quando o aditamento de renovação de 2/2019 estiver na situação "recebido pelo banco", orientar o (a) estudante a imprimir o DRM junto a CPSA, e posteriormente, comparecer ao Agente Financeiro para formalização (FNDE);
+7.	Quando o aditamento de 2/2019 estiver na situação “contratado”, orientar a CPSA e o (a) estudante a darem prosseguimento aos aditamentos de renovações liberados (FNDE).
+ 
+ 
+ -- PADRÃO PARA ESTUDANTE QUE NÃO TENHA REALIZADO A PRÉ-INSCRICAO --
+
+ A) Solicitar aos Gestores do FNDE, que entrem em contato com a Sesu de forma a solicita-los que liberem a liminar de pré-inscrição extemporânea para 1°/2017; [4° Nível/FNDE]
+ B) Solicitar ao Gestor do fies a liberação das liminares ("Liminar de liberação de vagas" e "Liminar de inscrição retroativa"); [4° Nível/FNDE]
+ C) Solicitar o (a) estudante que prossiga com sua inscrição e posteriormente conclua a mesma; [4º Nível/FNDE]
+ D) Informar à CPSA que ela deverá validar a inscrição do (a) estudante; [4º Nível/FNDE]
+ E) Quando a inscrição estiver na situação “Recebido pelo banco”, informar o (a) estudante que ela poderá se dirigir à CPSA para a imprimir sua DRI, posteriormente, ao agente financeiro para formalizar a contratação da sua inscrição; [4º Nível/FNDE]
+ F) Após contratação da inscrição, solicitar ao Gestor do Fies a liberação do aditamento extemporâneo, conforme necessidade; [4º Nível/FNDE]
+ G) Solicitar a CPSA e à estudante que deem continuidade aos aditamentos subsequentes; [4º Nível/FNDE]
+ H) Verificar diariamente o sistema para atestar que a estudante concluiu sua contratação junto ao agente financeiro e seus aditamentos junto a CPSA. Caso negativo, alertar a estudante sobre o vencimento dos prazos. Caso positivo, comunicar via e-mail, o atendimento da demanda à Assessoria Jurídica. [4º Nível/FNDE]
+
+ -- PADRÃO PARA ESTUDANTE QUE NÃO TENHA REALIZADO A PRÉ-INSCRICAO E QUE PARA O PERÍODO AINDA NÃO HAVIA PRÉ-INSCRICAO (EX.: 1°/2015)  --
+  
+ A)Solicitar ao gestor do fies a liberação das liminares ("Liminar de liberação de vagas" e "Liminar de inscrição retroativa") para o semestre de 1°/2015; [4° Nível/FNDE]
+ B)Solicitar ao gestor do fies a liberação das liminares ("Liberação da participação do estudante no ENEM (inscrição)" e "Permitir inscrição com média inferior a 450 no ENEM (inscrição)"); [4° Nível/FNDE]
+ C)Retornar a DTI/MEC; [DTI/MEC]
+ D)Alterar a situação da inscrição e semestre referencia para o 1°/2015, bem como prorrogar os prazos; [DTI/MEC] 
+ E)Orientar o (a) estudante a dar prosseguimento ao preenchimento da inscrição de 1°/2015 no sisfiesaluno, posteriormente a CPSA deverá validar a mesma; [4° Nível/FNDE] 
+ F)Quando a inscrição de 1°/2015 estiver na situação "recebido pelo banco", informar o (a) estudante que deverá imprimir a sua DRI junto a CPSA, posteriormente comparecer ao agente financeiro para formalização; [4° Nível/FNDE]
+ G)Após a contratação da inscrição de 1°/2015, solicitar ao gestor do fies a liberação de extemporâneo para os semestres a partir de 2°/2015; [4° Nível/FNDE]
+ H)Após a liberação de extemporâneo, orientar a CPSA e o (a) estudante a darem prosseguimento aos aditamentos de renovações liberados; [4° Nível/FNDE]
+ I) Verificar o sistema diariamente para atestar que o (a) estudante concluiu a contratação do financiamento e dos aditamentos. Caso negativo alertá-lo (a) sobre o vencimento dos prazos. [4° Nível/FNDE]
+ 
+ -- REPROCESSAMENTO DE INSCRIÇOES CONTRATADAS
+a)	Alterar a situação da inscrição de 1/2014 para “pendente de correção” (DTI/MEC);
+b)	Solicitar ao Agente Financeiro CEF o retorno do arquivo de contratação da inscrição do estudante para o SISFIES (FNDE);
+c)	Retornar a DTI/MEC para a adoção dos procedimentos posteriores (FNDE);
+d)	Reprocessar o arquivo de contratação da inscrição do estudante (DTI/MEC);
+e)	Solicitar ao Agente Operador do Fies a liberação de extemporâneo para os semestres a partir de 2/2014 (FNDE);
+f)	Orientar a CPSA e o estudante a darem prosseguimento aos aditamentos de renovação liberados (FNDE).
+
+ 
+ -- PADRÃO PARA LIBERAR A INSCRIÇÃO RETROATIVA E SEM PRÉ INSCRIÇÃO
+ 
+1.	Solicitar aos gestores do FNDE, que entrem em contato com a SESU de forma a solicita-los que cadastrem a liminar de pré-inscrição extemporânea para 1°/2020 (FNDE);
+2.	Solicitar à estudante que prossiga com o preenchimento da pré-inscrição no sistema Fies Seleção Aluno, e posteriormente, conclua a inscrição (FNDE);
+3.	Após a conclusão do preenchimento da pré-inscrição do (a) estudante, solicitar aos gestores do FNDE, que entrem em contato com a SESU de forma a solicita-los que cadastrem a liminar de liberação de vagas para o financiamento do (a) estudante em 1°/2020 (FNDE);
+4.	Orientar o (a) estudante a prosseguir com o preenchimento do financiamento no FIESSELECAOALUNO (FNDE);
+5.	Quando a inscrição estiver na situação “Pendente de validação pela CPSA”, informar à CPSA a prosseguir com a validação da inscrição do (a) estudante (FNDE);
+6.	Quando a inscrição estiver na situação “Recebido pelo banco”, informar o (a) estudante que poderá se dirigir à CPSA para a imprimir o DRI, e posteriormente, comparecer ao Agente Financeiro para formalizar a contratação da sua inscrição (FNDE).
+
+ -- PADRÃO PARA ALTERAÇÃO DE PERCENTUAL DE FINANCIAMENTO 
+ 
+  ------------------------------------------------- ------------------------------------- -------------------------------------------------
+ A) Solicitar ao Agente financeiro do contrato do (a) estudante que estorne/desconsidere os aditamentos de renovação de 2°/2017 e 1°/2018; [4° Nível/FNDE]
+ B) Solicitar a CPSA as seguintes informações para o aditamento de 2°/2017: 
+    Valor da Semestralidade SEM desconto – Grade Curricular Regular;
+    Valor da Semestralidade COM desconto – Grade Curricular Regular;
+    Valor da semestralidade para o FIES;
+    Valor da Semestralidade ATUAL COM desconto - Grade Curricular a ser Cursada. [4° Nível/FNDE] 
+ B) Retornar a esta DTI/MEC, após a conclusão do item anterior; [4° Nível/FNDE]
+ C) Solicitar a equipe de financeiro do fies, que realize o estorno dos repasses enviados aos semestres 2°/2017 e 1°/2018; [DTI/MEC]
+ D) Excluir os comprovantes e alterar a situação do aditamento de 1°/2018 para "cancelado"; [DTI/MEC]
+ E) Alterar o percentual de financiado do (a) estudante para 70% no termo de financiamento e no aditamento de 2°/2017, bem como inserir a liminar 15 (de alteração de percentual de financiamento); [DTI/MEC]
+ F) Alterar os valores da semestralidade conforme os valores informados pela CPSA do (a) estudante no aditamento de renovação de 2°/2017 e no termo de financiameto; [DTI/MEC]
+ G) Prorrogar os prazos e a alterar a situação do aditamento de renovação de 2°/2017 para "validado para contratação"; [DTI/MEC]
+ H) Orientar o (a) estudante a verificar junto a CPSA, se todos os dados e valores do aditamento de 2°/2017. Caso haja divergência retornar a DTI/MEC para regularização; [4° Nível/FNDE]
+ I) Quando o aditamento de renovação de 2°/2017, estiver na situação "recebido pelo banco" orientar o (a) estudante a se reimprimir a DRM, e posteriormente se dirigir ao agente financeiro para formalização; [4° Nível/FNDE]
+ j) Após a contratação do aditamento de renovação de 2°/2017, orientar a CPSA e o (a) estudante a dar prosseguimento no aditamento de renovação de 1°/2018. [4° Nível/FNDE]
+ K) Verificar diariamente o sistema para atestar que a estudante concluiu sua contratação junto ao agente financeiro e seus aditamentos junto a CPSA. Caso negativo, alertar a estudante sobre o vencimento dos prazos. [4° Nível/FNDE]
+  
+  ------------------------------------------------- ------------------------------------- -------------------------------------------------
+A)	Excluir os comprovantes, alterar o tipo do encerramento para liquidar no ato do encerramento, prorrogar os prazos e alterar a situação do aditamento de encerramento de 2°/2017 para "confirmado" (DTI/MEC);
+B)	Quando o aditamento de encerramento de 2°/2017 estiver na situação "recebido pelo banco", orientar o estudante a se dirigir ao Agente Financeiro de posse dos documentos necessário a formalização do encerramento (4° Nível/FNDE);
+C)	Verificar o sistema diariamente para atestar que o estudante concluiu a contratação do aditamento de encerramento. Caso negativo alertá-lo sobre o vencimento dos prazos (4° Nível/FNDE).
+
+ ------------------------------------------------- ------------------------------------- -------------------------------------------------
+A)	Solicitar ao Agente financeiro do contrato do (a) estudante que estorne o aditamento de suspensão, bem como o contratado de financiamento de 1/2014, de modo a atender a determinação judicial (4° Nível/FNDE);
+B)	Retornar a esta DTI/MEC, após a conclusão do item anterior (4° Nível/FNDE);
+C)	Realizar o estorno dos repasses enviados ao semestre de 1°/2014 (DTI/MEC);
+D)	Excluir todos os aditamentos e suas dependências (DTI/MEC);
+E)	Alterar a situação da inscrição para "vencido", o passo da inscrição para "zero", e alterar a situação do recurso financiado no termo de financiamento para "não alocado" (DTI/MEC).
+
+
+
+ 
+ 
+ 
+ -- APÓS AUMENTADO A PERIODICIDADE DO CURSO - ULTRAPASSADO O PRAZO DE 18 MESES O SISTEMA NÃO EFETUA A ALTERAÇÃO DA QUANTIDADE DE SEMESTRES FINANCIADOS DE FORMA AUTOMÁTICA.
+ -- Código de produção com banco de homologação:
+
+Sisfies Gestão: http://10.199.5.8/fies-gestao/trunk/fontes/public/autenticacao 
+​Sisfies Aluno: http://10.199.5.8/fies-aluno/trunk/fontes/public/ 
+
+*OBS:  ESTORNO DE REPASSES FINANCEIRO/REPASSES PARA 1°/2018 E SEGUINTES SÓ SERÁ EFETUADOS NA CAIXA, NÃO SERÁ EFETUADO NO FIES/MEC
+
+ 
+PN638/2017
+Art. 1º Estabelecer para o 2º semestre de 2017 o valor máximo de financiamento para realização de contratos e aditamentos de renovação semestral no âmbito do Fundo de Financiamento Estudantil - Fies:
+I - Contratos formalizados até o 2º semestre de 2016: R$ 42.983,70 (quarenta e dois mil novecentos e oitenta e três reais e setenta centavos).
+II - Contratos formalizados a partir do 1º semestre de 2017: R$ 30.000,00 (trinta mil reais), cabendo ao estudante arcar com a eventual diferença.
+
+ vl_financiado_semestre = Valor a ser pago no semestre ATUAL com recursos do estudante;
+ vl_semestralidade_para_fies = Valor da Semestralidade ATUAL COM desconto - Grade Curricular a ser Cursada ;
+ vl_semestre_atual = Valor da Semestralidade ATUAL COM desconto - Grade Curricular a ser Cursada;
+ vl_financiamento_exercicio = (vl_semestralidade_com_desconto) X o percentual do campo (nu_percent_solicitado_financ);
+ Valor a ser pago no semestre ATUAL com recursos do estudante + Valor a ser financiado no semestre ATUAL com recursos do FIES = Valor da Semestralidade ATUAL COM desconto - Grade Curricular a ser Cursada.
+ 
+ 
+ -- EXPLICAÇAO JURIDICO CONTRATOS FORMALIZADO NO 1/2018 E SUPERIORES ( WO1315466 )
+ 
+ 
+---------------------------------- resposta reenvio de aditamento por várias vezes --------------------------------------------------------- 
+ 
+ - Em consulta aos registros, nota-se que o aditamento foi reenviado para contratação em "2017-12-12 16:25:24", em segundo momento em "2018-01-03 16:55:53",
+no terceiro momento em "2018-02-16 16:51:28" e em quarto e ultimo momento em "2018-03-16 10:27:01" (com o prazo de 90 dias para comparecimento ao banco).
+Em todos os momentos o agente financeiro retornou ao sisfies a derrubada da contratação, com descrição : "Aditamento nao formalizado no prazo limite de contratacao".
+
+- Atualmente o aditamento encontra-se em situação pendente de correção, ressalto que devido o aditamento já ter sido um dia contratado no 
+sisfies, quando proprorcionamos o estorno e reenvio do aditamento de renovação, no qual o mesmo já foi contratado em algum momento, é normal que quando 
+
+- Em analise aos registros da base de dados do SISFIES, foi verificado que houve uma redução da quantidade de semestres de financiamento de 8 semestres 
+para 7 semestres, durante o processo do aditamento de renovação de 1/2018. A redução dos semestres financiados originou da alteração da CPSA em 10/02/2018,
+ onde a CPSA informou que a estudante estaria cursando o 5º semestre (onde deveria ser o 4º), desta forma o SISFIES recalculou o financiamento da estudante,
+ alterando os semestres concluídos para 4 (onde deveria ser 3 semestres concluídos), bem como alterou o financiamento de 8 para 7.
+ 
+ 
+o agente financeiro retorna ao sisfies o arquivo de contratação ou derrubada da contratação, o aditamento seja alterado sempre para a situação 
+"pendente de correção", razão na qual caso o agente financeiro tivesse retornado ao sisfies o arquivo de contratação do aditamento bastava 
+tão somente que realizassemos o reprocessamento do aditamento, entretanto como ainda não obtivemos nenhum arquivo de contratação após executarmos o reenvio dos arquivos.
+- Tendo em vista que já reenviamos o aditamento de renovação de 1°/2016 por diversas vezes à contratação do (a) estudante junto ao banco e até agora
+não obtivemos retorno de contratação, questiono se devemos prorrogar e reenviar novamente. 
+
+-- regras do financeiro
+Segundo regras do financeiro, o repasse é realizado referente aos contratos (inscrição e renovação) formalizado no mês anterior da contratação e até o dia 20. E como a inscrição 2/2017 foi contratada no dia 04/04/2018, somente no mês de maio será repassado referente aos encargos educacionais do semestre 2/2017.
+
+-- ACORDÃO
+Para complementar a resposta sobre o acordão, segue resposta mais completa:
+ 
+  Conforme as regras de negócio acordadas entre o FNDE e as mantenedoras do Grupo 2 (com mais de 20.000 inscrições), todos os contratos e/ou aditamentos contratados no período entre 01/08/2015 e 31/12/2015 terão seus repasses parcelados, com as mensalidades corrigidas pelo IPCA, respeitando as seguintes datas:
+  - 25% do montante devido repassado em 30.06.2016;
+  - 25% do montante devido a repassar em 30.06.2017;
+  - 50% do montante devido a repassar em 30.06.2018.
+ 
+  O aditamento do semestre 2/2015 do CPF 067.844.116-25 (RAFAEL BICHARA MARTINS SANTIAGO) faz parte deste acordo, pois foi contratado em 01/12/2015 e pertence a uma mantenedora do grupo 2.
+  Dessa forma, o próximo repasse está previsto para 30.06.2018.
+
+-- PADRÃO DE LERO LERO
+
+Favor alterar o status da demanda do simec para "Em análise", pois necessito de informações completares do Agente Financeiro para a conclusão da análise a demanda judicial.
+
+-- ESTUDANTES QUE NAO FORAM MIGRADOS.
+Aguardar a solução realizada na WO1292125, pois foi identificado óbice sistêmico que NÃO permite a migração das inscrições de alguns estudantes 1/2020. Foi identificado que a situação da inscrição DA ESTUDANTE (04052159675) encontra se "3-pre selecionado" e a situação do financiamento "16-Em validação de orçamento". Desde o dia 03/03/2020 18:12:16.
+
+-- CRASH DA BASE
+Em analise aos registros da base de dados do SISFIES, foi verificado que o motivo da tramitação irregular no aditamento de renovação da estudante, 
+foi devido a um crash da base de dados do SISFIES que ocorreu em 2018, onde ocasionou na perda de registros, bem como na geração de aditamentos de 1/2018 
+com código de aditamentos duplicados, ou seja, a estudante em questão detinha o mesmo código de aditamento de um outro estudante, 
+a estudante VIRGINIA BARBOSA RABELO, CPF: 09850280689. Na época os dois estudantes estavam com o mesmo código “16104931” 
+para o aditamento de renovação de 1/2018, no entanto a situação foi corrigida em 20/10/2018 as 22h11min quando o código do aditamento 
+da estudante VIRGINIA BARBOSA RABELO, CPF: 09850280689 foi ajustado para o código “16111627”, e atualmente os financiamentos das duas estudantes 
+estão regulares.
+
+AGENTE OPERADOR 665.489.001.97
+
+Demanda para prorrogaçao de prazos das inscriçoespara mais 30 dias - WO1301056 
+
+
+- Conforme verificado, a funcionalidade, que foi implementada para validar os aditamentos de transferência a partir de 2/2020, 
+em atendimento as novas regras para transferência, estava com erro no código da aplicação, por este motivo os estudantes não 
+estavam conseguindo concluir a solicitação de transferência em 2/2020, todavia, a funcionalidade já foi corrigida. 
+
+
+- Conforme verificado em simulação no SISFIESALUNO, não houve impedimento para validar o aditamento de renovação de 2/2020, desta forma, 
+não há necessidade de intervenção desta área técnica, bem como, o motivo de ter apresentado a mensagem “ MGS 308”, foi devido a indisponibilidade do sistema Agente Financeiro,
+ no qual o SISFIES se utiliza para verificar a idoneidade do estudante. 
+ 
+#PERCENTUAL ALTERADO PELO SISTEMA
+- Em analise aos registros da base de dados do SISFIES, foi verificado que houve uma redução do percentual do financiamento do estudante em relação 
+ao contratado, bem como essa alteração ocorreu durante o processo do aditamento de renovação de 2/2017, onde o sistema reduziu o percentual do
+ financiamento da estudante de 92,70% para 9,99% em02/10/2017 às 10h11min. Vale ressaltar, que em 2017 houve um erro do sistema, que implicou 
+ na redução do percentual de financiamento de vários estudantes, dentre os estudantes, o financiamento da estudante em questão também foi afetado. 
+ Devido ao erro foi cadastrado uma liminar para que os estudantes pudessem aumentar o seu percentual para o inicialmente contratado, todavia,
+ como o cadastro da liminar só ocorreu em 01/02/2018, ocorreu que muitos estudantes acabaram contratado o aditamento referente ao 2/2017 
+ com o percentual errado. 
+ 
+ 
+ - Conforme verificado, o FIES do estudante faz parte dos financiamentos em que tiveram os aditamentos contratados por liminar de dispensa de fiador (para estudantes do MATO GROSSO),
+ todavia, foi verificado que a liminar expirou em 21/01/2019. Nota-se que posteriormente, houve uma prorrogação, o que possibilitou que o prazo fosse estendido para 01/11/2019, 
+ desta forma, não houve impedimento para o estudante contratar o aditamento do semestre de 2/2019, todavia, no aditamento de 1/2020, 
+ o estudante deve obrigatoriamente informar o fiador para contratar o aditamento de 1/2020 e posterior, pois seu contrato foi formalizado na modalidade de garantia “CONVENCIONAL”.
+ 
+ - Prezados, conforme verificado nos registros da base de dados, a alteração da situação da inscrição da estudante foi realizada via sistema SISFIES,
+ vale ressaltar que o SISFIES não guarda a informação do IP do cliente, para esta informação deverá ser solicitado juntamente a INFRA por meio de demanda,
+ onde deverá ser verificado qual ou quais IP’s acessou ou acessaram o SISFIES em 30/10/2020 às 13h44min.
+ 
+ - Em análise aos registros da base de dados do SISFIES foi verificado, que nenhum dos estudantes informados na demanda, 
+ ocupou vaga no FIESSELEÇÃO, bem como nem chegaram a concluir a inscrição no sistema. Evidência abaixo.
+ - Em relação a mensagem de exceção que não permite a edição de dados, a mensagem é disparada quando o prazo para complementar a inscrição do estudante está expirado,
+ ou seja, quando a data fim do financiamento está encerrada, ao estudante clicar nas abas do financiamento para a edição dos dados, 
+ o sistema verifica se o financiamento está encerrado, caso esteja, dispara essa mensagem de exceção no sistema sempre ao entrar neste cenário,
+ retornando assim a exceção da mensagem 'MSG213'. Vale ressaltar, que este cenário foi reportado pela equipe de desenvolvimento durante 
+ os testes de homologação do remanescente 2°/2020, tal como informado sobre esta mensagem disparada pelo sistema, e tendo em vista que não houve definição
+ de implementação de uma nova mensagem, e nem solicitação de alteração, o sistema continua exibindo a mensagem (MSG213), sempre quando o financiamento entra nesse cenário.

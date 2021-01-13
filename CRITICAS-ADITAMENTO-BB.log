@@ -1,0 +1,17 @@
+-- Executing query:
+SELECT co_situacao_aditamento, ds_situacao_aditamento, ds_detalhes_situacao, 
+       st_permite_editar, st_exibe_expirado
+  FROM inscricao.tb_fies_situacao_aditamento;
+
+Total query runtime: 11 msec
+25 rows retrieved.
+
+-- Executing query:
+SELECT nu_sequencial, co_identificacao_registro, co_critica, ds_complemento_critica,
+       co_arquivo_recebido, dt_inclusao_registro, co_chave_id_registro,
+       nu_cpf
+  FROM integracao.tb_fies_importa_critica_retorno
+  where substr(nu_cpf, 4, 8)::int = 10023356 order by dt_inclusao_registro desc
+Total query runtime: 12.0 secs
+65 rows retrieved.
+

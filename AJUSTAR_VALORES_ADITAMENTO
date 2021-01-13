@@ -1,0 +1,219 @@
+/*
+FNDE - #13374 - NADIA BEATRIZ DESTO - 030.305.531-67 - FIES - Sisfies Gestao
+Ordem de trabalho # WO1290015
+*/
+
+begin
+raise notice 'INICIO DA TRANSACAO.';
+
+-- SCRIPT PARA INCLUSAO DO AJUSTE NO SEMESTRE DE 1°/2018,1°/2019
+INSERT INTO financeiro.tb_fies_ajuste_calculo
+SELECT
+               nextval('financeiro.tb_fies_ajuste_calculo_co_ajuste_seq'::regclass) AS co_ajuste,
+               99999 AS co_processo,
+               tfc.co_agente_financeiro,
+               tfc.co_contrato_fies,
+               tfcpe.co_mantenedora,
+               (SELECT co_contrato_fies_historico FROM financeiro.tb_fies_contrato_historico tch WHERE tch.co_contrato_fies = tfc.co_contrato_fies ORDER BY co_contrato_fies_historico DESC LIMIT 1) co_contrato_fies_historico,
+               now() AS dt_ajuste,
+               'D'::CHAR(1) AS tp_operacao,
+               tfcpe.st_aditamento,  -- Ã‰ ou NÃƒO um aditamento?
+               NULL AS co_aditamento,
+               tfcpe.co_calculo,
+               9 AS co_tipo_ajuste_calculo, -- TIPO 9 = DEMANDA JUDICIAL / TIPO 10 = CANCELAMENTO DE CONTRATO / 11 = DEMANDA EXTRAJUDICIAL
+               43 AS co_aprovacao_ajuste, -- Ã‰ o registro com a APROVAÃ‡ÃƒO e JUSTIFICATIVA do AJUSTE
+               tfcpe.nu_mes_referencia,
+               tfcpe.nu_ano_referencia,
+        tfcpe.vl_mensalidade, -- tem que calcular para os crÃ©ditos
+               COALESCE(tfcpe.st_suspensao,0),
+               tfcpe.lg_fgeduc,
+               tfcpe.co_termo_fgeduc,
+               tfcpe.dt_fim_termo,
+               tfcpe.dt_aceite_fgeduc,
+               now() AS dt_criacao,
+               'ABDA' ds_usuario,
+               tfcpe.co_aditamento_origem,
+               tfcpe.dt_aditamento,
+               tfcpe.co_regra_fgeduc
+FROM 
+               financeiro.tb_fies_contrato tfc
+               INNER JOIN inscricao.tb_fies_termo_financiamento ttf ON ttf.co_inscricao = tfc.co_inscricao
+               INNER JOIN inscricao.tb_fies_inscricao tfi ON tfi.co_inscricao = tfc.co_inscricao
+               INNER JOIN financeiro.tb_fies_calculo_processo_emissao_cfte tfcpe ON tfcpe.co_contrato_fies = tfc.co_contrato_fies --AND tfcpe.st_aditamento = 1
+where  
+               tfc.co_contrato_fies = 2743860	
+               and nu_mes_referencia in (1,2,3,4,5,6) 
+               and nu_ano_referencia in (2018,2019)
+ORDER BY
+               tfc.co_contrato_fies,
+               tfcpe.nu_mes_referencia,
+               tfcpe.nu_ano_referencia;
+               
+-- SCRIPT PARA INCLUSAO DO AJUSTE NO SEMESTRE DE 2°/2017, 2°/2018, 2°/2019  
+INSERT INTO financeiro.tb_fies_ajuste_calculo
+SELECT
+               nextval('financeiro.tb_fies_ajuste_calculo_co_ajuste_seq'::regclass) AS co_ajuste,
+               99999 AS co_processo,
+               tfc.co_agente_financeiro,
+               tfc.co_contrato_fies,
+               tfcpe.co_mantenedora,
+               (SELECT co_contrato_fies_historico FROM financeiro.tb_fies_contrato_historico tch WHERE tch.co_contrato_fies = tfc.co_contrato_fies ORDER BY co_contrato_fies_historico DESC LIMIT 1) co_contrato_fies_historico,
+               now() AS dt_ajuste,
+               'D'::CHAR(1) AS tp_operacao,
+               tfcpe.st_aditamento,  -- Ã‰ ou NÃƒO um aditamento?
+               NULL AS co_aditamento,
+               tfcpe.co_calculo,
+               9 AS co_tipo_ajuste_calculo, -- TIPO 9 = DEMANDA JUDICIAL / TIPO 10 = CANCELAMENTO DE CONTRATO / 11 = DEMANDA EXTRAJUDICIAL
+               43 AS co_aprovacao_ajuste, -- Ã‰ o registro com a APROVAÃ‡ÃƒO e JUSTIFICATIVA do AJUSTE
+               tfcpe.nu_mes_referencia,
+               tfcpe.nu_ano_referencia,
+        tfcpe.vl_mensalidade, -- tem que calcular para os crÃ©ditos
+               COALESCE(tfcpe.st_suspensao,0),
+               tfcpe.lg_fgeduc,
+               tfcpe.co_termo_fgeduc,
+               tfcpe.dt_fim_termo,
+               tfcpe.dt_aceite_fgeduc,
+               now() AS dt_criacao,
+               'ABDA' ds_usuario,
+               tfcpe.co_aditamento_origem,
+               tfcpe.dt_aditamento,
+               tfcpe.co_regra_fgeduc
+FROM 
+               financeiro.tb_fies_contrato tfc
+               INNER JOIN inscricao.tb_fies_termo_financiamento ttf ON ttf.co_inscricao = tfc.co_inscricao
+               INNER JOIN inscricao.tb_fies_inscricao tfi ON tfi.co_inscricao = tfc.co_inscricao
+               INNER JOIN financeiro.tb_fies_calculo_processo_emissao_cfte tfcpe ON tfcpe.co_contrato_fies = tfc.co_contrato_fies --AND tfcpe.st_aditamento = 1
+where  
+               tfc.co_contrato_fies = 2743860	
+               and nu_mes_referencia in (7,8,9,10,11,12) 
+               and nu_ano_referencia in (2017,2018,2019)
+ORDER BY
+               tfc.co_contrato_fies,
+               tfcpe.nu_mes_referencia,
+               tfcpe.nu_ano_referencia;
+               
+-- EXCLUIR O COMPROVANTE DO ADITAMENTO DE RENOVAÇÃO DE 2/2017, 1/2018, 2/2018, 1/2019, 2/2019 e 1/2020
+delete inscricao.tb_fies_comprovante where co_aditamento in (14170489,16043332,17392877,18400662,18644817,19216831);       
+
+-- CANCELAR OS ADITAMENTOS 1/2018, 2/2018, 1/2019, 2/2019 e 1/2020
+update inscricao.tb_fies_aditamento set co_situacao_aditamento = 39 where co_aditamento in (16043332,17392877,18400662,18644817,19216831);      
+
+-- ALTERAR A QUANTIDADE DE SEMESTRES CONCLUIDOS NO TERMO 
+update inscricao.tb_fies_termo_financiamento set qt_semestre_concluido = 4 where co_inscricao = 5521196;
+
+
+DECLARE
+
+X RECORD;
+
+V_CPF VARCHAR:= '03030553167';
+V_ADITAMENTO INT:= 14170489;
+V_SEMESTRE_SEM_DESCONTO VARCHAR= '55281.86';
+V_SEMESTRE_COM_DESCONTO VARCHAR = '55281.86';
+V_SEMESTRE_ATUAL VARCHAR = '55281.86';
+V_FINANCIADO_SEMESTRE VARCHAR;
+V_FINANCIAMENTO_GLOBAL VARCHAR;
+V_FINANCIAMENTO_EXERCICIO VARCHAR;
+V_NU_PERCENT_SOLICITADO_FINANC VARCHAR = '55.00';
+V_SEMESTRALIDADE_PARA_FIES VARCHAR = '55281.86';
+SOMA_SEMESTRE VARCHAR;
+V_LIMITE_GLOBAL VARCHAR;
+V_SEMESTRE_COM_DESCONTO_CONTRATO VARCHAR;
+V_PROUNI INT = 0;
+V_TP_ADITAMENTO VARCHAR;
+V_NO_USUARIO VARCHAR;
+V_CO_BANCO VARCHAR;
+BEGIN
+
+SELECT SUM(VL_FINANCIADO_SEMESTRE) INTO SOMA_SEMESTRE  FROM INSCRICAO.TB_FIES_ADITAMENTO WHERE NU_CPF = V_CPF AND CO_SITUACAO_ADITAMENTO = 49 AND CO_FINALIDADE_ADITAMENTO IN (1,2);
+SELECT NO_USUARIO INTO V_NO_USUARIO FROM INSCRICAO.TB_FIES_USUARIO_INSCRICAO WHERE NU_CPF = V_CPF;
+SELECT  
+CASE WHEN CO_BANCO = '001' THEN 'BB'::VARCHAR 
+WHEN CO_BANCO = '104' THEN 'CEF'::VARCHAR 
+ELSE 'NULL'::VARCHAR END 
+INTO V_CO_BANCO
+FROM INSCRICAO.TB_FIES_INSCRICAO  WHERE NU_CPF = V_CPF;
+
+FOR X IN
+SELECT * FROM  INSCRICAO.TB_FIES_ADITAMENTO WHERE CO_ADITAMENTO = V_ADITAMENTO
+
+LOOP
+RAISE NOTICE 'NOME:% CPF:%',V_NO_USUARIO,X.NU_CPF;
+RAISE NOTICE 'BANCO:%',V_CO_BANCO;
+RAISE NOTICE 'ADITAMENTO:% SEMESTRE:%',X.CO_ADITAMENTO,X.NU_SEMESTRE_REFERENCIA;
+V_TP_ADITAMENTO = X.TP_ADITAMENTO;
+
+IF (X.NU_PERCENTUAL_PROUNI > 0) THEN
+V_FINANCIADO_SEMESTRE = V_SEMESTRE_ATUAL * (X.NU_PERCENTUAL_PROUNI/100);
+V_FINANCIADO_SEMESTRE = ROUND(V_FINANCIADO_SEMESTRE * (V_NU_PERCENT_SOLICITADO_FINANC /100),2);
+SOMA_SEMESTRE = SOMA_SEMESTRE + V_FINANCIADO_SEMESTRE;
+V_FINANCIAMENTO_EXERCICIO = V_SEMESTRE_COM_DESCONTO * (V_NU_PERCENT_SOLICITADO_FINANC /100);
+V_FINANCIAMENTO_GLOBAL = ROUND(X.QT_SEMESTRE_FINANCIAMENTO * V_FINANCIADO_SEMESTRE,2);
+V_LIMITE_GLOBAL = ROUND(V_FINANCIAMENTO_GLOBAL * 1.25,2);
+V_PROUNI  = 1;
+RAISE NOTICE 'O ESTUDANTE POSSUI PROUNI:% ',X.NU_PERCENTUAL_PROUNI;
+RAISE NOTICE 'VALOR FINANCIADO SEMESTRE AJUSTADO:%',ROUND(V_FINANCIADO_SEMESTRE,2);
+END IF;
+
+IF (V_PROUNI = 0) THEN
+V_FINANCIADO_SEMESTRE = V_SEMESTRE_ATUAL * (V_NU_PERCENT_SOLICITADO_FINANC/100);
+SOMA_SEMESTRE = SOMA_SEMESTRE + V_FINANCIADO_SEMESTRE;
+V_FINANCIAMENTO_EXERCICIO = V_SEMESTRE_COM_DESCONTO * (V_NU_PERCENT_SOLICITADO_FINANC /100);
+V_FINANCIAMENTO_GLOBAL = ROUND(X.QT_SEMESTRE_FINANCIAMENTO * V_FINANCIADO_SEMESTRE,2);
+V_LIMITE_GLOBAL = ROUND(V_FINANCIAMENTO_GLOBAL * 1.25,2);
+RAISE NOTICE 'O ESTUDANTE NÃO POSSUI PROUNI:% ',X.NU_PERCENTUAL_PROUNI;
+RAISE NOTICE 'VALOR FINANCIADO SEMESTRE AJUSTADO:%',ROUND(V_FINANCIADO_SEMESTRE,2);
+END IF;
+
+IF(SOMA_SEMESTRE <= X.VL_LIMITE_GLOBAL) THEN
+V_FINANCIAMENTO_GLOBAL = X.VL_FINANCIAMENTO_GLOBAL;
+V_LIMITE_GLOBAL = X.VL_LIMITE_GLOBAL;
+RAISE NOTICE 'MANTEVE OS VALORES DO FINANCIAMENTO GLOBAL:% | LIMITE GLOBAL:% ',V_FINANCIAMENTO_GLOBAL,V_LIMITE_GLOBAL;
+
+ELSE
+V_FINANCIAMENTO_GLOBAL = ROUND(SOMA_SEMESTRE,2);
+V_LIMITE_GLOBAL = ROUND(V_FINANCIAMENTO_GLOBAL * 1.25,2);
+V_TP_ADITAMENTO  = 'N';
+RAISE NOTICE 'FOI AJUSTADO OS VALORES DO FINANCIAMENTO GLOBAL:% | LIMITE_GLOBAL:% ',V_FINANCIAMENTO_GLOBAL,V_LIMITE_GLOBAL;
+RAISE NOTICE 'ADITAMENTO NãO SIMPLIFICADO:% ',V_TP_ADITAMENTO;
+END IF;
+
+DELETE INSCRICAO.TB_FIES_COMPROVANTE WHERE CO_ADITAMENTO  = V_ADITAMENTO;
+UPDATE INSCRICAO.TB_FIES_ADITAMENTO
+                SET VL_SEMESTRE_SEM_DESCONTO = V_SEMESTRE_SEM_DESCONTO,
+                VL_SEMESTRE_COM_DESCONTO=V_SEMESTRE_COM_DESCONTO,
+                VL_SEMESTRE_ATUAL=V_SEMESTRE_ATUAL,
+                VL_SEMESTRALIDADE_PARA_FIES=V_SEMESTRALIDADE_PARA_FIES,
+                VL_FINANCIAMENTO_EXERCICIO= V_FINANCIAMENTO_EXERCICIO,
+                VL_FINANCIAMENTO_GLOBAL= V_FINANCIAMENTO_GLOBAL,
+                VL_FINANCIADO_SEMESTRE=V_FINANCIADO_SEMESTRE,
+                VL_LIMITE_GLOBAL = V_LIMITE_GLOBAL,
+                NU_PERCENT_SOLICITADO_FINANC = V_NU_PERCENT_SOLICITADO_FINANC, 
+                CO_SITUACAO_ADITAMENTO = 34,
+                DT_LIMITE_COMPARECIMENTO_BANCO = INSCRICAO.FN_FIES_SOMA_DIAS_UTEIS(NOW()::DATE,10),
+                DT_LIMITE_RETORNO_AGENTE_FINANC = INSCRICAO.FN_FIES_SOMA_DIAS_UTEIS(NOW()::DATE,15),
+                TP_ADITAMENTO = 'N'
+                WHERE  CO_ADITAMENTO = V_ADITAMENTO;
+
+UPDATE INSCRICAO.TB_FIES_TERMO_FINANCIAMENTO
+                SET VL_SEMESTRE_SEM_DESCONTO = V_SEMESTRE_SEM_DESCONTO,
+                VL_SEMESTRE_COM_DESCONTO = V_SEMESTRE_COM_DESCONTO,
+                VL_SEMESTRE_ATUAL = V_SEMESTRE_ATUAL,
+                VL_SEMESTRALIDADE_PARA_FIES = V_SEMESTRALIDADE_PARA_FIES,
+                VL_FINANCIAMENTO_EXERCICIO = V_FINANCIAMENTO_EXERCICIO,
+                VL_FINANCIAMENTO_GLOBAL = V_FINANCIAMENTO_GLOBAL,
+                VL_FINANCIADO_SEMESTRE =V_FINANCIADO_SEMESTRE,
+                NU_PERCENT_SOLICITADO_FINANC = V_NU_PERCENT_SOLICITADO_FINANC, 
+                VL_LIMITE_GLOBAL = V_LIMITE_GLOBAL
+WHERE  CO_INSCRICAO = X.CO_INSCRICAO;
+
+END LOOP;
+END;
+commit;
+raise notice 'TRANSAÇÃO COMPLETA!!!!!!!!!!';
+--TRATAMENTO DE ERRO
+exception when others then
+        rollback;
+        raise notice 'ROLLBACK aplicado!!!!!!!!!!';
+        raise exception '% %', SQLERRM, SQLSTATE;
+end;
