@@ -22,7 +22,7 @@ PHP:
 	- Aperte OK e reinicie seu computador
 
 
-
+http://svn.mec.gov.br/fies/sisfiesaluno/trunk
 
 PHPStorm:
 
@@ -30,20 +30,22 @@ Settings -> Languages & Frameworks -> PHP -> PHP language level: 5.6
 Settings -> Languages & Frameworks -> PHP -> CLI Interpreter: ... -> 'C:/php/php.exe'
 
 VCS -> Get from version control -> Version control: Subversion -> + -> URL: http://svn.mec.gov.br/fies/sisfies -> clicar na pasta adicionada e selecionar a pasta 'trunk'
-Abra o Terminal e digite os comandos: 
-cd fontes
-composer install
+
+* Abra o Terminal e digite os comandos: 
+
+1 - cd fontes
+2 - composer install
 
 copie de trunk/fontes/cecap/hmg os arquivos 'app-config-file.php' e 'infra.ini' para a pasta raiz de cecap
 
 No terminal entrar na pasta cecap (cd cecap) e executar o arquivo ReplaceAppConfig.php (php ReplaceAppConfig.php)
 
+Na pasta public, renomeie o arquivo '.htaccess.dist' para '.htaccess'
 
 
+Windows:C:\www\fies\sisfies\trunk\fontes
 
-Windows:
-
-Crie no diretório 'C:\' as pastas 'www\fies\sisfies'
+Crie no diretório 'C:\' as pastas 'www\fies\sisfies\trunk'
 Abra o arquivo hosts em 'C:\Windows\System32\drivers\etc' e adicione ao final do arquivo a linha: 	127.0.0.1		sisfies.local
 
 
@@ -64,6 +66,8 @@ Crie um Virtual Host em Application -> Virtual Hosts -> Add Virtual Host
 	- Na terceira tela, clique na opção 'Edit virtual host configuration template'
 		- Substitua todo o conteúdo da textarea por: 
 		
+		
+		//meu caminho
 		# Created by Zend Server
 		<VirtualHost *:80>
 			SetEnv APP_CONFIG_FILE "C:\www\fies\sisfies\trunk\fontes\cecap\app-config-file.php"
